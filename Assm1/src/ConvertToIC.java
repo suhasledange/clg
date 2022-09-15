@@ -87,7 +87,6 @@ public class ConvertToIC {
         while (it.hasNext()){
             String key = it.next().toString();
             TableRow value = SYMTAB.get(key);
-
             FWrite.write(value.getIdx()+"\t"+value.getSym()+"\t"+value.getAddr()+"\n");
         }
         FWrite.close();

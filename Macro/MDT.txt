@@ -1,0 +1,8 @@
+0 M1 &A
+1  MOVER AREG
+2  ADD BREG
+3 MEND
+4 M2 &C &D
+5  ADD &C #1
+6  SUB &C #1
+7 MEND
